@@ -20,14 +20,15 @@ Deadline: 4/13
 ### hw7.cpp
 輸入 ``u`` 為unit step 訊號(力)
 輸出 ``y``(量測訊號) 為 位移
+<img src="https://github.com/Robotics-Aerial-Robots/Homework7/blob/master/Figures/plot.PNG" width="80%" height="40%">
 ### PlotJuggler
 下載網址:https://github.com/facontidavide/PlotJuggler
 及操作
 ### 作業上傳
-除了上傳作業的cpp檔外，先錄好bag
-開啟PlotJuggler與bag 播放
-用Kazam或其他可以錄螢幕畫面的軟體紀錄你的``動畫``
-``並將你的動畫影片連結附在Readme.md``
-``或gif檔都可以``
-
+除了上傳作業的cpp檔外，先錄好bag,
+開啟PlotJuggler與bag 播放,
+用Kazam或其他可以錄螢幕畫面的軟體紀錄你的**動畫**,
+,**並將你的動畫影片連結附在Readme.md**
+**或gif檔都可以**
+<img src="https://github.com/Robotics-Aerial-Robots/Homework7/blob/master/Figures/%E8%AA%AA%E6%98%8E.PNG" width="80%" height="40%">
 
