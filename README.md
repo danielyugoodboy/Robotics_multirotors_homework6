@@ -23,7 +23,7 @@ Deadline: 4/13
 輸出 ``y``(量測訊號) 為 位移
 <img src="https://github.com/Robotics-Aerial-Robots/Homework7/blob/master/Figures/%E8%AA%AA%E6%98%8E.PNG" width="80%" height="40%">
 
-\ ${x(k+1)}= {x(k)} + \dot{x}$ ${dt}$ \
+<img src="https://github.com/Robotics-Aerial-Robots/Homework7/blob/master/Figures/%E5%BE%AE%E5%88%86.PNG" width="80%" height="40%">
 使用上述形式可實作到你的code
 ### PlotJuggler
 下載網址:https://github.com/facontidavide/PlotJuggler \
