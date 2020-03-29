@@ -28,7 +28,7 @@ int main(int argc, char **argv)
 	float M = 2;//mass
 	float k = 1;//spring constant
 	float b = 0.707;//damping coefficient
-	float u = 1;//control input is unit step function
+	float u = 1;//control input is unit step function(r = u,without controller design)
 	struct Dynamic_State x2;//velocity
 	struct Dynamic_State x1;//position
 	ros::Rate loop_rate(10);
