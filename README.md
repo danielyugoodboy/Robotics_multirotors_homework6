@@ -1,7 +1,7 @@
 ![image](https://github.com/Robotics-Aerial-Robots/Homework7/blob/master/Figures/LOGO%20%E4%B8%AD%E8%8B%B1%E6%96%87%E6%A9%AB.png)
 # 108 年度 機器人學：多軸旋翼機 
 
-### HW7
+### HW6
 Deadline: 4/13
 ---
 ## 題目
@@ -11,21 +11,20 @@ Deadline: 4/13
 ### 指令
 ```
 	roscore
-	rosrun HW7 hw7
-	rosbag record -O hw7 /Position/data
+	rosrun HW6 hw6
+	rosbag record -O hw6 /Position/data
 	-------after recording------------------
 	rosrun plotjuggler PlotJuggler
 	(之後點file,Load data,點選你的bag file)
 ```
-### hw7.cpp
+### hw6.cpp
 
 輸入 ``u`` 為unit step 訊號(力)
 輸出 ``y``(量測訊號) 為 位移
-<img src="https://github.com/Robotics-Aerial-Robots/Homework7/blob/master/Figures/%E8%AA%AA%E6%98%8E.PNG" width="80%" height="40%">
+<img src="https://github.com/Robotics-Aerial-Robots/Homework6/blob/master/Figures/%E8%AA%AA%E6%98%8E.PNG" width="80%" height="40%">
 
-<img src="https://github.com/Robotics-Aerial-Robots/Homework7/blob/master/Figures/%E5%BE%AE%E5%88%86.PNG" width="20%" height="10%">
-使用上述形式可實作到你的code \
-
+${\mathbf x(k+1)}= {\mathbf x(k)} + \dot{\mathbf x}$ ${\mathbf dt}$ \
+使用上述形式可實作到你的code
 ### PlotJuggler
 下載網址:https://github.com/facontidavide/PlotJuggler \
 及操作
@@ -36,6 +35,6 @@ Deadline: 4/13
 用Kazam或其他可以錄螢幕畫面的軟體紀錄你的**動畫**, \
 ,**並將你的動畫影片連結附在你的Readme.md** \
 **或gif檔都可以** \
-<img src="https://github.com/Robotics-Aerial-Robots/Homework7/blob/master/Figures/plot.PNG" width="80%" height="40%">
+<img src="https://github.com/Robotics-Aerial-Robots/Homework6/blob/master/Figures/plot.PNG" width="80%" height="40%">
 
 
