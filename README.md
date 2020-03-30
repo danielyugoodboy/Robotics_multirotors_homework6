@@ -1,4 +1,4 @@
-![image](https://github.com/Robotics-Aerial-Robots/Homework7/blob/master/Figures/LOGO%20%E4%B8%AD%E8%8B%B1%E6%96%87%E6%A9%AB.png)
+![image](https://github.com/Robotics-Aerial-Robots/Homework6/blob/master/Figures/LOGO%20%E4%B8%AD%E8%8B%B1%E6%96%87%E6%A9%AB.png)
 # 108 年度 機器人學：多軸旋翼機 
 
 ### HW6
@@ -23,7 +23,7 @@ Deadline: 4/13
 輸出 ``y``(量測訊號) 為 位移
 <img src="https://github.com/Robotics-Aerial-Robots/Homework6/blob/master/Figures/%E8%AA%AA%E6%98%8E.PNG" width="80%" height="40%">
 
-${\mathbf x(k+1)}= {\mathbf x(k)} + \dot{\mathbf x}$ ${\mathbf dt}$ \
+<img src="https://github.com/Robotics-Aerial-Robots/Homework7/blob/master/Figures/%E5%BE%AE%E5%88%86.PNG" width="20%" height="10%">
 使用上述形式可實作到你的code
 ### PlotJuggler
 下載網址:https://github.com/facontidavide/PlotJuggler \
