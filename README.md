@@ -24,7 +24,7 @@ Deadline: 4/13
 <img src="https://github.com/Robotics-Aerial-Robots/Homework6/blob/master/Figures/images.png" width="40%" height="20%">
 
 <img src="https://github.com/Robotics-Aerial-Robots/Homework6/blob/master/Figures/%E5%BE%AE%E5%88%86.PNG" width="20%" height="10%">
-使用上述形式可實作到你的code  \
+使用上述形式可實作到你的code  
 
 ### PlotJuggler
 下載網址:https://github.com/facontidavide/PlotJuggler 
