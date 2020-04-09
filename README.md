@@ -18,7 +18,7 @@ Deadline: 4/13
 	(之後點file,Load data,點選你的bag file)
 ```
 ### hw6.cpp
-
+假設輪子與平面無磨擦力干擾
 輸入 ``u`` 為unit step 訊號(力)
 輸出 ``x(t)``(量測訊號) 為 位移  \
 <img src="https://github.com/Robotics-Aerial-Robots/Homework6/blob/master/Figures/images.png" width="40%" height="20%">
