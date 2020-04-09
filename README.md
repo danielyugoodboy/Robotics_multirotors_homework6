@@ -12,7 +12,7 @@ Deadline: 4/13
 ```
 	roscore
 	rosrun HW6 hw6
-	rosbag record -O hw6 /Position/data
+	rosbag record -O hw6 /Position
 	-------after recording------------------
 	rosrun plotjuggler PlotJuggler
 	(之後點file,Load data,點選你的bag file)
