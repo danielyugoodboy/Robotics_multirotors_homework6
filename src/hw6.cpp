@@ -42,7 +42,10 @@ int main(int argc, char **argv)
 		double now = ros::Time::now().toSec();
 		/*Discrete-Time Linear State-Space*/
 		dt = now - past;
-
+		x2.current = x2.last + dt*(-(k/M)*x1.last - (b/M)*x2.last + (1/M)*u);
+		x1.current = x1.last + dt*x2.last;
+		x2.last = x2.current;
+		x1.last = x1.current;
 		/*Following codes are implemented with numerical integration
 		 *x(k+1) = x(k) + x_dot * dt;
 		 *
@@ -52,11 +55,10 @@ int main(int argc, char **argv)
 		/*Current moment is last moment in the future*/
 		past = now;
 		/*You can check the position data by PlotJuggler*/
-		position.data = x1.current; 
+		position.data = x1.current;
 		state_pub.publish(position);
 		ros::spinOnce();
 		loop_rate.sleep();
 	}
 	return 0;
 }
-
